@@ -1,0 +1,268 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+
+section:nth-child(2n){
+    background-color: lightgrey;
+}
+
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+/* Body Header */
+
+#main_header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(res/img/yes-no.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+
+
+.navlist li{
+    list-style: none;
+    display: inline-block;
+    font-size: 0.9rem;
+    padding: 2px;
+
+
+
+}
+.navlist li a{
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 2px;
+}
+
+.navlist li a:hover{
+    text-decoration: underline;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+#name-header{
+    margin-top: 20vh;
+}
+
+#myName{
+    color:white;
+    text-align: center;
+}
+
+.list li{
+    list-style: none;
+    display: inline-block;
+    font-size: 0.9rem;
+    padding: 2px;
+
+}
+
+.social-icons li a{
+    height: 30px;
+    width:30px;
+    color:white;
+    padding:2px;
+}
+
+.social-icons li a:hover{
+    border-radius: 50%;
+    height:35px;
+    width:35px;
+    opacity: 0.1;
+}
+
+/*about section*/
+#about{
+position: relative;
+height: auto;
+width: 100vw;
+padding-top: 100px;
+}
+
+#my-image{
+    height: 12rem;
+    width:12rem;
+    /*margin:auto;*/
+    position: absolute;
+    left: calc(50% - 6rem);
+    top: -96px;
+
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+    /*margin-top: -17vh;*/
+}
+
+#about-para{
+    width:70%;
+    margin: auto;
+    text-align: justify;
+    font-size: 2rem;
+    color:grey;
+}
+
+
+#section-heading{
+     color:#2857a4;
+    font-size:2.5rem;
+    text-align:center;
+}
+
+
+/*Skill Section */
+
+#skills{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skill-display{
+    display:flex;
+    flex-wrap: wrap;
+    width:70%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#skill-indicator{
+    width:150px;
+    background-color: grey;
+    border-radius: 1rem;
+    margin: 10px;
+
+
+}
+
+#skill-name{
+    padding: 3px;
+    color:white;
+    font-size:1.5rem;
+}
+
+#sixty-five-percentage{
+    border-radius: 1rem 0 0 1rem;
+    background-color: #2857a4;
+    height: inherit;
+    width:65%;
+}
+#fifty-five-percentage{
+    border-radius: 1rem 0 0 1rem;
+    background-color: #F23211 ;
+    height: inherit;
+    width:55%;
+}
+#seventy-five-percentage{
+    border-radius: 1rem 0 0 1rem;
+    background-color: green;
+    height: inherit;
+    width:70%;
+}
+#eighty-five-percentage{
+    border-radius: 1rem 0 0 1rem;
+    background-color: #8D3A8FCF;
+    height: inherit;
+    width:65%;
+}
+
+
+/*Work Experience Section */
+#experience{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#timeline{
+    width:70%;
+    height: auto;
+    position: relative;
+    margin: auto;
+
+}
+
+#timeline-box:nth-child(2n){
+    border:1px solid black;
+    height: 10rem;
+    width:10rem;
+    position: relative;
+    left:25%;
+
+}
+
+#timeline-box:nth-child(2n+1){
+    border:1px solid black;
+    height: 10rem;
+    width:10rem;
+    position: relative;
+    left:50%;
+
+}
+
+#timeline-divider{
+    border:1px dashed black;
+    width: 0px;
+    position: absolute;
+    top:10%;
+    left:45%;
+    height: 80%;
+}
+
+#traveller{
+    position: sticky;
+    top: 20%;
+    transform: rotate(90deg);
+}
+
+
+
+
+#contact-display{
+    background: linear-gradient(#2857a4,#403066);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#login input{
+    text-decoration: none;
+    border-style: none;
+    border-bottom: 1px solid white;
+    background-color: inherit;
+    width:100%;
+}
+
+#login-button{
+    padding: 4px;
+    font-size: 1rem;
+}
+
+
+#get-in-touch{
+    font-size: 1rem;
+    color:white;
+}
+
+
